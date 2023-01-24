@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Muscle Conection</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div><img src="../img/logo.jpg" alt="logo" class="logo"></div>
+        <h1>Mind Muscle Conection</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a> </li>
+                <li><a href="nosotros.html">Nosotros</a> </li>
+                <li><a href="planes.html">Planes</a> </li>
+                <li><a href="contacto.html">Contacto</a> </li>
+                <li><a href="calcmacros.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="texto-calc">Calculadora de Macros</h2>
+        <div class="texto">
+            <p>Para caclcular sus necesidades calóricas y objetivos macro, complete la informacion a continuación. Esta
+                macrocalculadora le brinda una ingesta calorica estimada basada en la Ecuacion Mifflin St Jeor y sus
+                valores porporcionados, esto debe usarse con prudencia. Si no esta seguro de cómo aplicar esta
+                informacion, busque el consejo de su profesional de la salud.</p>
+        </div>
+        <div class="formulario">
+            <form>
+                <label for="weight">Peso (kg):</label>
+                <input type="number" id="weight" name="weight">
+                <br>
+                <label for="height">Altura (cm):</label>
+                <input type="number" id="height" name="height">
+                <br>
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age">
+                <br>
+                <label for="sex">Sexo:</label>
+                <select id="sex" name="sex">
+                    <option value="female">Femenino</option>
+                    <option value="male">Masculino</option>
+                </select>
+                <br>
+                <label for="activity_level">Nivel de actividad:</label>
+                <select id="activity_level" name="activity_level">
+                    <option value="1.2">Sedentario</option>
+                    <option value="1.375">Ligeramente activo</option>
+                    <option value="1.55">Moderadamente activo</option>
+                    <option value="1.725">Altamente activo</option>
+                    <option value="1.9">Muy altamente activo</option>
+                </select>
+                <br>
+                <button type="button">Calcular Macronutrientes</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Copyright&copy;Gianluca Bringnani</p>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
