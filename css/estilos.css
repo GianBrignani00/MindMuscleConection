@@ -1,4 +1,4 @@
-
+c
 /*GENERAL*/
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    background: white;
+    background: #cbbdd9;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -26,7 +26,7 @@ header{
 }
 
 .menu{
-    background-color: #66574a;
+    background-color: #55adbd;
 }
 
 .menu ul li {
@@ -41,11 +41,11 @@ header{
     display: block;
     padding: 15px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .menu ul li:hover{
-  background: white;
+  background: #cbbdd9;
   cursor: pointer; 
 }
 
@@ -56,13 +56,15 @@ header{
 }
 
 h1{
-    text-transform: uppercase;
-    margin: 20px;
-    text-shadow: 5px 5px 6px rgb(169, 168, 168);
+    color: #007744;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 45px;
+    /*margin: 20px;*/
+    text-shadow: 5px 5px 10px rgb(145, 143, 143);
 }
 
 main{
-    background: #FCF9BE;
+    background: #C8FFD4;
     border: 2px solid rgb(140, 139, 139);
     box-shadow: 5px 5px 10px gray;
     margin: 20px;
@@ -126,7 +128,7 @@ main{
     height: 260px;
     flex-grow: 1;
     text-transform: uppercase;
-    background: white;
+    background: #cbbdd9;
 }
 
 .planes p{
@@ -139,7 +141,7 @@ main{
 }
 
 .btn-precio{
-    background: #66574a;
+    background: #55adbd;
     display: block;
     padding: 10px;
     color: #fff;
@@ -180,11 +182,11 @@ div i{
 }
 
 .formulario{
-    background: beige;
+    background: #cbbdd9;
     width: 400px;
     height: 200px;
     margin-left: 36%;
-    border: 10px groove  #66574a;
+    border: 10px groove  #55adbd;
     box-shadow: 5px 5px 10px  #66574a;
 }
 
@@ -198,15 +200,15 @@ form{
 
 form button{
     margin-top: 20px;
-    background: #66574a;
-    color: white;
+    background: #55adbd;
+    color: black;
     padding: 5px;
     font-weight: bold;
 }
 
 form button:hover{
-    background: #50443a;
-    color: white;
+    background: #C8FFD4;
+    color: black;
     padding: 5px;
     font-weight: bold;
     text-align: center;
@@ -214,7 +216,7 @@ form button:hover{
 
 .footer{
     text-align: center;
-    background: #66574a;
+    background: #55adbd;
     padding: 10px;
     bottom: 0px;
 }
