@@ -234,13 +234,13 @@ form button:hover{
     text-decoration: dotted;
     border: 1px double black;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 13px;
     width: 30%;
-    margin: 10px;
-    height: 260px;
+    margin: 5px;
+    height: 255px;
     flex-grow: 1;
     text-transform: uppercase;
-    background: white;    
+    background: #cbbdd9;    
     }
 }
 
@@ -296,10 +296,32 @@ form button:hover{
         border-radius: 5px;
         font-size: 10px;
         width: 30%;
-        margin: 10px;
-        height: 210px;
+        margin: 3px;
+        height: 236px;
         text-transform: uppercase;
-        background: white;   
+        background: #cbbdd9;   
+    }
+
+    .planes h2{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:991px){
+    .planes{
+        text-decoration: dotted;
+        border: 1px double black;
+        border-radius: 5px;
+        font-size: 13px;
+        width: 45%;
+        margin: 5px;
+        height: 247px;
+        text-transform: uppercase;
+        background: #cbbdd9;   
+    }
+
+    .planes h2{
+        font-size: 20px;
     }
 }
 
@@ -347,18 +369,23 @@ form button:hover{
     .flex, 
     .-flex{
         display: inline;
+        flex-wrap: wrap;
     }
 
     .planes{
         text-decoration: dotted;
         border: 1px double black;
         border-radius: 5px;
-        font-size: 8px;
-        width: 30%;
-        margin: 10px;
-        height: 195px;
+        font-size: 14px;
+        width: 33%;
+        margin: 9px;
+        height: 270px;
         text-transform: uppercase;
-        background: white;   
+        background: #cbbdd9;   
+    }
+
+    .planes h2{
+        font-size: 15px;
     }
 }
 
@@ -411,12 +438,16 @@ form button:hover{
         text-decoration: dotted;
         border: 1px double black;
         border-radius: 5px;
-        font-size: 8px;
+        font-size: 10px;
         width: 40%;
-        margin: 10px;
-        height: 195px;
+        margin: 5px;
+        height: 233px;
         text-transform: uppercase;
-        background: white;  
+        background: #cbbdd9;  
+    }
+
+    .planes h2{
+        font-size: 17px;
     }
  }
 
@@ -472,9 +503,14 @@ form button:hover{
         border-radius: 5px;
         font-size: 17px;
         width: 100%;
-        margin: 10px;
-        height: 260px;
+        margin: 5px;
+        height: 267px;
         text-transform: uppercase;
-        background: white;
+        background: #cbbdd9;
+    }
+
+    .planes h2{
+        font-size: 20px;
     }
  }
+
