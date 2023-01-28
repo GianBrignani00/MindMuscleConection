@@ -227,7 +227,7 @@ form button:hover{
         border: 10px groove  #66574a;
         box-shadow: 10px 10px 10px  #66574a;
         margin-left: 5px;
-        margin-top: 150px;
+        margin-top: 90px;
     }
 
     .planes{
@@ -287,8 +287,8 @@ form button:hover{
         border: 10px groove  #66574a;
         box-shadow: 10px 10px 10px  #66574a;
         margin: 0px;
-        margin-left: 320px;
-        padding: 0px;
+        margin-left: 35%
+       
     }
 
     .titulo-uno{
@@ -350,8 +350,8 @@ form button:hover{
         border: 10px groove  #66574a;
         box-shadow: 10px 10px 10px  #66574a;
         margin: 0px;
-        margin-left: 180px;
-        padding: 0px;
+        margin-left: 35%;
+
     }
 
     .titulo-uno{
@@ -524,5 +524,4 @@ form button:hover{
     .planes h2{
         font-size: 20px;
     }
- }
-
+}
