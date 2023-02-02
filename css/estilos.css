@@ -1,525 +1,476 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #cbbdd9;
-    font-family: "Questrial", sans-serif;
+  background: #cbbdd9;
+  font-family: "Questrial", sans-serif;
 }
 
 header {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .logo {
-    width: 270px;
-    height: 200px;
+  width: 270px;
+  height: 200px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .menu {
-    background-color: #55adbd;
+  background-color: #55adbd;
 }
-
 .menu ul li {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-right: 1px solid white;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-right: 1px solid white;
 }
-
 .menu ul li a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: black;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
 }
-
 .menu ul li:hover {
-    background: #cbbdd9;
-    cursor: pointer;
+  background: #cbbdd9;
+  cursor: pointer;
 }
-
 .menu ul li:hover a {
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 h1 {
-    color: #007744;
-    font-family: "Advent Pro", sans-serif;
-    font-size: 45px;
-    /*margin: 20px;*/
-    text-shadow: 5px 5px 10px rgb(145, 143, 143);
+  color: #007744;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 45px;
+  text-shadow: 5px 5px 10px rgb(145, 143, 143);
 }
 
 main {
-    background: #C8FFD4;
-    border: 2px solid rgb(140, 139, 139);
-    box-shadow: 5px 5px 10px gray;
-    margin: 20px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: justify;
+  background: #C8FFD4;
+  border: 2px solid rgb(140, 139, 139);
+  box-shadow: 5px 5px 10px gray;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 /*HOME*/
 .imguno {
+  width: 500px;
+  height: 350px;
+  border: 10px groove #66574a;
+  box-shadow: 10px 10px 10px #66574a;
+  margin-left: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.-flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.texto-uno {
+  padding: 60px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.titulo-uno {
+  margin: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+/*NOSOTROS*/
+.title {
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+/*PLANES*/
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.planes {
+  text-decoration: dotted;
+  border: 1px double black;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 30%;
+  margin: 10px;
+  height: 219px;
+  flex-grow: 1;
+  text-transform: uppercase;
+  background: #cbbdd9;
+}
+.planes p {
+  margin: 18px;
+}
+
+.precio {
+  font-size: 30px;
+  color: black;
+}
+
+.btn-precio {
+  background: #55adbd;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.btn-precio .btn-precio:hover {
+  background: #4c4036;
+}
+
+/*CONTACTO*/
+div i {
+  font-size: 70px;
+}
+
+.contacto {
+  margin: 15px;
+  padding: 15px;
+}
+.contacto a {
+  text-decoration: none;
+  color: black;
+}
+
+/*CALCULADORA*/
+.texto-calc {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  background: #cbbdd9;
+  width: 400px;
+  height: 200px;
+  margin-left: 36%;
+  border: 10px groove #55adbd;
+  box-shadow: 5px 5px 10px #66574a;
+}
+
+form {
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+form button {
+  margin-top: 20px;
+  background: #55adbd;
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+}
+form button:hover {
+  background: #C8FFD4;
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background: #55adbd;
+  padding: 10px;
+  bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+  .imguno {
     width: 500px;
     height: 350px;
     border: 10px groove #66574a;
     box-shadow: 10px 10px 10px #66574a;
     margin-left: 5px;
+    margin-top: 90px;
+  }
+  .planes {
+    text-decoration: dotted;
+    border: 1px double black;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 30%;
+    margin: 5px;
+    height: 209px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    background: #cbbdd9;
+  }
 }
-
-.flex {
-    display: flex;
-    flex-direction: row;
+@media (max-width: 1062px) {
+  .planes {
+    text-decoration: dotted;
+    border: 1px double black;
+    border-radius: 5px;
+    font-size: 11px;
+    width: 30%;
+    margin: 5px;
+    height: 209px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    background: #cbbdd9;
+  }
 }
-
-.-flex {
-    display: flex;
-    flex-direction: row-reverse;
+@media (max-width: 1060px) {
+  .planes {
+    text-decoration: dotted;
+    border: 1px double black;
+    border-radius: 5px;
+    font-size: 11px;
+    width: 30%;
+    margin: 5px;
+    height: 187px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    background: #cbbdd9;
+  }
 }
-
-.texto-uno {
-    padding: 60px;
-    text-align: justify;
-    font-size: 20px;
-}
-
-.titulo-uno {
-    margin: 20px;
-    font-size: 30px;
-    text-decoration: underline;
-}
-
-/*NOSOTROS*/
-.title {
-    font-size: 25px;
+@media (max-width: 992px) {
+  h1 {
+    text-transform: uppercase;
     margin: 10px;
+    text-shadow: 5px 5px 6px rgb(169, 168, 168);
+  }
+  .imguno {
+    width: 250px;
+    height: 150px;
+    border: 10px groove #66574a;
+    box-shadow: 10px 10px 10px #66574a;
+    margin: 0px;
+    margin-left: 35%;
+  }
+  .titulo-uno {
+    font-size: 15px;
     text-decoration: underline;
-}
-
-/*PLANES*/
-.flexbox {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.planes {
+  }
+  .title {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .texto-uno {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid white;
+  }
+  .flex,
+  .-flex {
+    display: inline;
+  }
+  .planes {
     text-decoration: dotted;
     border: 1px double black;
     border-radius: 5px;
     font-size: 17px;
-    width: 30%;
-    margin: 10px;
-    height: 219px;
-    flex-grow: 1;
+    width: 45%;
+    margin: 5px;
+    height: 210px;
     text-transform: uppercase;
     background: #cbbdd9;
+  }
+  .planes h2 {
+    font-size: 20px;
+  }
 }
-
-.planes p {
-    margin: 18px;
-}
-
-.precio {
-    font-size: 30px;
-    color: black;
-}
-
-.btn-precio {
-    background: #55adbd;
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
-}
-
-.btn-precio .btn-precio:hover {
-    background: #4c4036;
-}
-
-/*CONTACTO*/
-div i {
-    font-size: 70px;
-}
-
-.contacto {
-    margin: 15px;
-    padding: 15px;
-}
-
-.contacto a {
-    text-decoration: none;
-    color: black;
-}
-
-/*CALCULADORA*/
-.texto-calc {
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.texto p {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.formulario {
-    background: #cbbdd9;
-    width: 400px;
-    height: 200px;
-    margin-left: 36%;
-    border: 10px groove #55adbd;
-    box-shadow: 5px 5px 10px #66574a;
-}
-
-form {
-    text-align: center;
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-form button {
-    margin-top: 20px;
-    background: #55adbd;
-    color: black;
-    padding: 5px;
-    font-weight: bold;
-}
-
-form button:hover {
-    background: #C8FFD4;
-    color: black;
-    padding: 5px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.footer {
-    text-align: center;
-    background: #55adbd;
-    padding: 10px;
-    bottom: 0px;
-}
-
-@media (max-width: 1200px) {
-    .imguno {
-        width: 500px;
-        height: 350px;
-        border: 10px groove #66574a;
-        box-shadow: 10px 10px 10px #66574a;
-        margin-left: 5px;
-        margin-top: 90px;
-    }
-
-    .planes {
-        text-decoration: dotted;
-        border: 1px double black;
-        border-radius: 5px;
-        font-size: 15px;
-        width: 30%;
-        margin: 5px;
-        height: 209px;
-        flex-grow: 1;
-        text-transform: uppercase;
-        background: #cbbdd9;
-    }
-}
-
-@media (max-width: 1062px) {
-    .planes {
-        text-decoration: dotted;
-        border: 1px double black;
-        border-radius: 5px;
-        font-size: 11px;
-        width: 30%;
-        margin: 5px;
-        height: 209px;
-        flex-grow: 1;
-        text-transform: uppercase;
-        background: #cbbdd9;
-    }
-}
-
-@media (max-width: 1060px) {
-    .planes {
-        text-decoration: dotted;
-        border: 1px double black;
-        border-radius: 5px;
-        font-size: 11px;
-        width: 30%;
-        margin: 5px;
-        height: 187px;
-        flex-grow: 1;
-        text-transform: uppercase;
-        background: #cbbdd9;
-    }
-}
-
-@media (max-width: 992px) {
-    h1 {
-        text-transform: uppercase;
-        margin: 10px;
-        text-shadow: 5px 5px 6px rgb(169, 168, 168);
-    }
-
-    .imguno {
-        width: 250px;
-        height: 150px;
-        border: 10px groove #66574a;
-        box-shadow: 10px 10px 10px #66574a;
-        margin: 0px;
-        margin-left: 35%;
-    }
-
-    .titulo-uno {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .title {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .texto-uno {
-        text-align: center;
-        font-size: 20px;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .menu ul li {
-        display: inline-block;
-        font-size: 15px;
-        font-weight: bold;
-        border-right: 1px solid white;
-    }
-
-    .flex,
-    .-flex {
-        display: inline;
-    }
-
-    .planes {
-        text-decoration: dotted;
-        border: 1px double black;
-        border-radius: 5px;
-        font-size: 17px;
-        width: 45%;
-        margin: 5px;
-        height: 210px;
-        text-transform: uppercase;
-        background: #cbbdd9;
-    }
-
-    .planes h2 {
-        font-size: 20px;
-    }
-}
-
 @media (max-width: 805px) {
-    h1 {
-        text-transform: uppercase;
-        margin: 10px;
-        text-shadow: 5px 5px 6px rgb(169, 168, 168);
-    }
-
-    .imguno {
-        width: 250px;
-        height: 150px;
-        border: 10px groove #66574a;
-        box-shadow: 10px 10px 10px #66574a;
-        margin: 0px;
-        margin-left: 35%;
-    }
-
-    .titulo-uno {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .title {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .texto-uno {
-        text-align: center;
-        font-size: 15px;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .menu ul li {
-        display: inline-block;
-        font-size: 15px;
-        font-weight: bold;
-        border-right: 1px solid white;
-    }
-
-    .flex,
-    .-flex {
-        display: inline;
-        flex-wrap: wrap;
-    }
-
-    .planes {
-        text-decoration: dotted;
-        border: 1px double black;
-        border-radius: 5px;
-        font-size: 18px;
-        width: 100%;
-        margin: 5px;
-        height: 210px;
-        text-transform: uppercase;
-        background: #cbbdd9;
-    }
-
-    .planes h2 {
-        font-size: 20px;
-    }
+  h1 {
+    text-transform: uppercase;
+    margin: 10px;
+    text-shadow: 5px 5px 6px rgb(169, 168, 168);
+  }
+  .imguno {
+    width: 250px;
+    height: 150px;
+    border: 10px groove #66574a;
+    box-shadow: 10px 10px 10px #66574a;
+    margin: 0px;
+    margin-left: 35%;
+  }
+  .titulo-uno {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .title {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .texto-uno {
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid white;
+  }
+  .flex,
+  .-flex {
+    display: inline;
+    flex-wrap: wrap;
+  }
+  .planes {
+    text-decoration: dotted;
+    border: 1px double black;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    margin: 5px;
+    height: 210px;
+    text-transform: uppercase;
+    background: #cbbdd9;
+  }
+  .planes h2 {
+    font-size: 20px;
+  }
 }
-
 @media (max-width: 664px) {
-    h1 {
-        text-transform: uppercase;
-        margin: 10px;
-        text-shadow: 5px 5px 6px rgb(169, 168, 168);
-    }
-
-    .imguno {
-        width: 250px;
-        height: 150px;
-        border: 10px groove #66574a;
-        box-shadow: 10px 10px 10px #66574a;
-        margin-left: 150px;
-        padding: 0px;
-    }
-
-    .titulo-uno {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .title {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .texto-uno {
-        text-align: center;
-        font-size: 15px;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .menu ul li {
-        display: inline-block;
-        font-size: 15px;
-        font-weight: bold;
-        border-right: 1px solid white;
-    }
-
-    .flex,
-    .-flex {
-        display: inline;
-    }
-
-    .planes {
-        text-decoration: dotted;
-        border: 1px double black;
-        border-radius: 5px;
-        font-size: 13px;
-        width: 100%;
-        margin: 5px;
-        height: 180px;
-        text-transform: uppercase;
-        background: #cbbdd9;
-    }
-
-    .planes h2 {
-        font-size: 17px;
-    }
+  h1 {
+    text-transform: uppercase;
+    margin: 10px;
+    text-shadow: 5px 5px 6px rgb(169, 168, 168);
+  }
+  .imguno {
+    width: 250px;
+    height: 150px;
+    border: 10px groove #66574a;
+    box-shadow: 10px 10px 10px #66574a;
+    margin-left: 150px;
+    padding: 0px;
+  }
+  .titulo-uno {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .title {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .texto-uno {
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid white;
+  }
+  .flex,
+  .-flex {
+    display: inline;
+  }
+  .planes {
+    text-decoration: dotted;
+    border: 1px double black;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 100%;
+    margin: 5px;
+    height: 180px;
+    text-transform: uppercase;
+    background: #cbbdd9;
+  }
+  .planes h2 {
+    font-size: 17px;
+  }
 }
-
 @media (max-width: 576px) {
-    h1 {
-        text-transform: uppercase;
-        margin: 10px;
-        text-shadow: 5px 5px 6px rgb(169, 168, 168);
-    }
-
-    .imguno {
-        width: 250px;
-        height: 150px;
-        border: 10px groove #66574a;
-        box-shadow: 10px 10px 10px #66574a;
-        margin: 0px;
-        margin-left: 100px;
-        padding: 0px;
-    }
-
-    .titulo-uno {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .title {
-        font-size: 15px;
-        text-decoration: underline;
-    }
-
-    .texto-uno {
-        text-align: center;
-        font-size: 15px;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .menu ul li {
-        display: inline-block;
-        font-size: 15px;
-        font-weight: bold;
-        border-right: 1px solid white;
-    }
-
-    .flex,
-    .-flex {
-        display: inline;
-    }
-
-    .planes {
-        text-decoration: dotted;
-        border: 1px double black;
-        border-radius: 5px;
-        font-size: 17px;
-        width: 100%;
-        margin: 5px;
-        height: 212px;
-        text-transform: uppercase;
-        background: #cbbdd9;
-    }
-
-    .planes h2 {
-        font-size: 20px;
-    }
+  h1 {
+    text-transform: uppercase;
+    margin: 10px;
+    text-shadow: 5px 5px 6px rgb(169, 168, 168);
+  }
+  .imguno {
+    width: 250px;
+    height: 150px;
+    border: 10px groove #66574a;
+    box-shadow: 10px 10px 10px #66574a;
+    margin: 0px;
+    margin-left: 100px;
+    padding: 0px;
+  }
+  .titulo-uno {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .title {
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .texto-uno {
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu ul li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid white;
+  }
+  .flex,
+  .-flex {
+    display: inline;
+  }
+  .planes {
+    text-decoration: dotted;
+    border: 1px double black;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 100%;
+    margin: 5px;
+    height: 212px;
+    text-transform: uppercase;
+    background: #cbbdd9;
+  }
+  .planes h2 {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
