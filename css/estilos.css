@@ -174,7 +174,7 @@ div i {
   background: #cbbdd9;
   width: 400px;
   height: 200px;
-  margin-left: 36%;
+  margin: 0 auto;
   border: 10px groove #55adbd;
   box-shadow: 5px 5px 10px #66574a;
 }
