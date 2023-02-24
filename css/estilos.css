@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: #cbbdd9;
     font-family: "Questrial", sans-serif;
@@ -21,6 +27,13 @@ header {
 
 .text-center {
     text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background: #55adbd;
+    padding: 10px;
+    bottom: 0px;
 }
 
 .menu {
@@ -70,7 +83,12 @@ main {
     text-align: justify;
 }
 
-/*HOME*/
+.title {
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
 .imguno {
     width: 500px;
     height: 350px;
@@ -101,14 +119,12 @@ main {
     text-decoration: underline;
 }
 
-/*NOSOTROS*/
 .title {
     font-size: 25px;
     margin: 10px;
     text-decoration: underline;
 }
 
-/*PLANES*/
 .flexbox {
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +165,6 @@ main {
     background: #4c4036;
 }
 
-/*CONTACTO*/
 div i {
     font-size: 70px;
 }
@@ -164,7 +179,6 @@ div i {
     color: black;
 }
 
-/*CALCULADORA*/
 .texto-calc {
     text-align: center;
     text-decoration: underline;
@@ -208,13 +222,6 @@ form button:hover {
     padding: 5px;
     font-weight: bold;
     text-align: center;
-}
-
-.footer {
-    text-align: center;
-    background: #55adbd;
-    padding: 10px;
-    bottom: 0px;
 }
 
 @media (max-width: 1200px) {

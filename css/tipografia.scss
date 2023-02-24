@@ -1,0 +1,23 @@
+@import "variables";
+
+h1 {
+    color: $color3;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 45px;
+    text-shadow: 5px 5px 10px rgb(145, 143, 143);
+}
+
+main {
+    @include bordes();
+    background: $color6;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title {
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: underline;
+}

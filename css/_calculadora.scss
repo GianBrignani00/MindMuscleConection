@@ -1,0 +1,48 @@
+@import "variables";
+
+.texto-calc {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.texto {
+    p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.formulario {
+    background: $color1;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    border: 10px groove $color2;
+    box-shadow: 5px 5px 10px $color5;
+}
+
+form {
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+
+    button {
+        margin-top: 20px;
+        background: $color2;
+        color: black;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background: $color6;
+        color: black;
+        padding: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+}

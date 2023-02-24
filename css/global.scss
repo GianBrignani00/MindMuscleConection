@@ -1,0 +1,29 @@
+@import "variables";
+@import "reset";
+
+
+body {
+    background: $color1;
+    font-family: 'Questrial', sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 270px;
+    height: 200px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background: $color2;
+    padding: 10px;
+    bottom: 0px;
+}

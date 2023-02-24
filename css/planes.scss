@@ -1,0 +1,41 @@
+@import "variables";
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.planes {
+    text-decoration: dotted;
+    border: 1px double black;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 30%;
+    margin: 10px;
+    height: 219px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    background: $color1;
+
+    p {
+        margin: 18px;
+    }
+}
+
+.precio {
+    font-size: 30px;
+    color: black;
+}
+
+.btn-precio {
+    background: $color2;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+
+    .btn-precio:hover {
+        background: $color4;
+    }
+}

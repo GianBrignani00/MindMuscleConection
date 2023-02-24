@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixins";
+
+.imguno {
+    width: 500px;
+    height: 350px;
+    border: 10px groove $color5;
+    box-shadow: 10px 10px 10px $color5;
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.-flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.texto-uno {
+    padding: 60px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.titulo-uno {
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
